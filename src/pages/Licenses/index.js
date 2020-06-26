@@ -30,29 +30,34 @@ const Licenses = (props) => {
         );
     }, [state.lang]);
 
-    renderLicenseCards = () => (
+    const renderLicenseCards = () => (<>
+        <h1 className="licenseCards-title">{licensesTexts.title}</h1>
         <div className="licenseCards-container">
-            {licensesTexts.licenseCards.map(lic => (
-                <LicenseCard
-
-                />
+            {licensesTexts.licenseCards.map((card, key) => (
+                <LicenseCard key={key} {...card} />
             ))}
         </div>
-    );
+    </>);
     
     
     
 
-    renderLicense = () => (
+    const renderLicense = () => (
         <div className="license-container">
-            <h1>{licensesTexts.licenses[id]}</h1>
+            <h1>{licensesTexts.licenses[id].title}</h1>
+            <h2>{licensesTexts.licenses[id].subtitle}</h2>
+            <div className="description">{nl2br(licensesTexts.licenses[id].description)}</div>
+            <div className="features">
+                {licensesTexts.licenses[id].features.map((feature, key) => (
+                    <p key={key}><b>{feature.label}:</b> {feature.content}</p>
+                ))}
+            </div>
         </div>
     );
 
     return (
         <div className="Licenses">
-            <h1>{(!id) ? licensesTexts.title : licensesTexts.licenses[id].title}</h1>
-            {!id ? renderLicenseCards() : renderLicense()}
+            {(id) ? renderLicense() : renderLicenseCards()}
         </div>
     );
 }

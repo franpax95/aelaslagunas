@@ -1,0 +1,65 @@
+.Licenses{
+    margin: 10vh 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.Licenses .licenseCards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Licenses .license-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Licenses .license-container h1,
+.Licenses .license-container h2 {
+    text-align: center;
+}
+
+/* (800px and down) */
+@media only screen and (max-width: 800px) {
+    .Licenses .licenseCards-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .Licenses .license-container{
+        width: 100%;
+        padding: 10px;
+    }
+    .Licenses .license-container .features{
+        padding: 5vh 0 0 5vw;
+
+    }
+}
+
+/* (800px and up) */
+@media only screen and (min-width: 800px) {
+    .Licenses .licenseCards-container{
+        width: 80vw;
+        max-width: 1200px;
+        min-width: 750px;
+
+        flex-direction: row;
+    }
+    .Licenses .license-container{
+        width: 80vw;
+        max-width: 900px;
+        min-width: 750px;
+    }
+    .Licenses .license-container .description{
+        padding: 5vh 5vw;
+    }
+    .Licenses .license-container .features{
+        padding: 0 5vw 0 10vw;
+    }
+
+}

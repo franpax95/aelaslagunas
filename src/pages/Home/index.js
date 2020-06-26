@@ -1,7 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Context } from '../../Context';
 
-import Header from '../../components/Header';
 import { GeneralButton } from '../../components/buttons';
 
 import './Home.css';

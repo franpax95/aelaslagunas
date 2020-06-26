@@ -176,4 +176,21 @@ export const Licenses = {
             ]
         },
     ]
+};
+
+
+export const Contact = {
+    dataCard: {
+        title: 'Datos de contacto',
+        email: { label: 'Email', content: 'aelaslagunas@gmail.com' },
+        phone: { label: 'Teléfono', content: '657 32 58 08' },
+    },
+    formTexts: {
+        name: { placeholder: 'Nombre y Apellidos' },
+        email: { placeholder: 'Correo Electrónico' },
+        subject: { placeholder: 'Asunto' },
+        message: { placeholder: 'Mensaje' },
+        submit: 'Enviar',
+    },
+    alert: 'Deshabilitado, para que no me petes el correo :)'
 }

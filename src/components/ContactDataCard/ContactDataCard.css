@@ -1,0 +1,16 @@
+.ContactDataCard{
+    padding: 5vh 5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 2px #ff751a;
+    border-radius: 30px;
+}
+
+.ContactDataCard h1{
+    color: #ff751a;
+    margin-bottom: 20px;
+}

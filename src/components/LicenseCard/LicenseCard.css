@@ -1,0 +1,21 @@
+.LicenseCard{
+    width: 300px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    transition: background-color 1s;
+}
+
+.LicenseCard:hover{
+    background-color: whitesmoke;
+}
+
+.LicenseCard .links a{
+    margin: 2px;
+}

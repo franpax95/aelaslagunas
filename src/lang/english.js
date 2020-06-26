@@ -51,127 +51,144 @@ export const About = {
 };
 
 export const Licenses = {
-    title: '¿Qué permiso quieres?',
+    title: 'What license do you want?',
     licenseCards: [
         {
             img: imgcoche,
-            title: 'Carnet de coche',
-            subtitle: 'Permiso B',
+            title: 'Car license',
+            subtitle: 'License B',
             links: [
-                { id: 0, name: 'Más info' }
+                { id: 0, name: 'More info' }
             ]
         },
         {
             img: imgciclomotor,
-            title: 'Carnet de 49cc',
-            subtitle: 'Permiso AM',
+            title: '49cc license',
+            subtitle: 'License AM',
             links: [
-                { id: 1, name: 'Más info' }
+                { id: 1, name: 'More info' }
             ]
         },
         {
             img: imgmoto,
-            title: 'Carnet de +125cc',
-            subtitle: 'Permisos A1, A2 y A',
+            title: '+125cc license',
+            subtitle: 'License A1, A2 y A',
             links: [
                 { id: 2, name: '125cc' },
                 { id: 3, name: '500cc' },
-                { id: 4, name: 'Sin límite' }
+                { id: 4, name: 'No limit' }
             ]
         },
         {
             img: imgcamion,
-            title: 'Carnet de camión',
-            subtitle: 'Permiso C',
+            title: 'Truck license',
+            subtitle: 'License C',
             links: [
-                { id: 5, name: 'Más info' }
+                { id: 5, name: 'More info' }
             ]
         }
     ],
     licenses: [
         {
             id: 0,
-            title: 'Carnet de Coche',
-            subtitle: 'Permiso B',
-            description: 'Autoriza para conducir automóviles cuya masa máxima autorizada no exceda de 3.500 kg que estén diseñados y construidos para el transporte de no más de ocho pasajeros además del conductor. Dichos automóviles podrán llevar enganchado un remolque cuya masa máxima autorizada no exceda de 750 kg. \n Triciclos y cuatriciclos de motor: La edad mínima para obtenerlo será de dieciocho años cumplidos. No obstante, hasta los veintiún años cumplidos no autorizará a conducir triciclos de motor cuya potencia máxima exceda de 15 kW.',
+            title: 'Car License',
+            subtitle: 'License B',
+            description: 'Authorizes to drive automobiles whose maximum authorized mass does not exceed 3,500 kg that are designed and built to transport no more than eight passengers in addition to the driver. These cars may have a trailer with a maximum authorized mass not exceeding 750 kg. \n Motor tricycles and quadricycles: The minimum age to obtain it will be eighteen years of age. However, until the age of twenty-one you will not be allowed to drive motor tricycles whose maximum power exceeds 15 kW.',
             features: [
-                { label: 'Edad mínima', content: '18 años' },
-                { label: 'Permiso necesario', content: 'Ninguno' },
-                { label: 'Pruebas teóricas', content: 'Teórica común' },
-                { label: 'Pruebas prácticas', content: 'Examen de circulación' },
-                { label: 'Vehículos que permite', content: 'Automóviles cuya MMA no exceda los 3500Kg y ciclomotores' },
-                { label: 'Convalida', content: 'LCM, LVA y A1 a partir de los 3 años de antigüedad' }
+                { label: 'Minimum age', content: '18 years old' },
+                { label: 'License required', content: 'None' },
+                { label: 'Theoretical tests', content: 'Common theory' },
+                { label: 'Practical tests', content: 'Circulation test' },
+                { label: 'Vehicles that allows', content: 'Vehicles whose MMA does not exceed 3500Kg and mopeds' },
+                { label: 'Licenses that validate', content: 'LCM, LVA and A1 from 3 years old' }
             ]
         },
         {
             id: 1,
-            title: 'Carnet de Ciclomotor',
-            subtitle: 'Permiso AM',
-            description: 'Autoriza para conducir ciclomotores de dos o tres ruedas y cuatriciclos ligeros, aunque podrá estar limitado a la conducción de ciclomotores de tres ruedas y cuatriciclos ligeros. La edad mínima para obtenerlo será de quince años cumplidos. No obstante, hasta los dieciocho años cumplidos no autorizará a conducir los correspondientes vehículos cuando transporten pasajeros.',
+            title: 'Moped License',
+            subtitle: 'License AM',
+            description: 'You are authorized to drive two or three-wheel mopeds and light ATVs, although you may be limited to driving three-wheel mopeds and light ATVs. The minimum age to obtain it will be fifteen years old. However, until the age of eighteen they will not authorize the driving of the corresponding vehicles when transporting passengers.',
             features: [
-                { label: 'Edad mínima', content: '15 años' },
-                { label: 'Permiso necesario', content: 'Ninguno' },
-                { label: 'Pruebas teóricas', content: 'Específico AM' },
-                { label: 'Pruebas prácticas', content: 'Examen práctico de pista' },
-                { label: 'Vehículos que permite', content: 'Ciclomotores de 2 o 3 ruedas y cuatriciclos ligeros' },
-                { label: 'Convalida', content: 'Ninguno' }
+                { label: 'Minimum age', content: '15 years old' },
+                { label: 'License required', content: 'None' },
+                { label: 'Theoretical tests', content: 'Specific AM' },
+                { label: 'Practical tests', content: 'Circuit practical exam' },
+                { label: 'Vehicles that allows', content: '2 or 3 wheel mopeds and light ATVs' },
+                { label: 'Licenses that validate', content: 'None' }
             ]
         },
         {
             id: 2,
-            title: 'Carnet de Moto',
-            subtitle: 'Permiso A1',
-            description: 'Autoriza para conducir motocicletas con una cilindrada máxima de 125 cm³, una potencia máxima de 11 kW y una relación potencia/peso máxima de 0,1 kW/kg y triciclos de motor cuya potencia máxima no exceda de 15 kW.',
+            title: 'Motorcycle License',
+            subtitle: 'License A1',
+            description: 'Authorizes to drive motorcycles with a maximum displacement of 125 cm³, a maximum power of 11 kW and a maximum power / weight ratio of 0.1 kW/kg and motor tricycles whose maximum power does not exceed 15 kW.',
             features: [
-                { label: 'Edad mínima', content: '16 años' },
-                { label: 'Permiso necesario', content: 'Ninguno' },
-                { label: 'Pruebas teóricas', content: 'Teórica común y específico A' },
-                { label: 'Pruebas prácticas', content: 'Pista y circulación' },
-                { label: 'Vehículos que permite', content: 'Motocicletas de hasta 125cc' },
-                { label: 'Convalida', content: 'AM' }
+                { label: 'Minimum age', content: '16 years old' },
+                { label: 'License required', content: 'None' },
+                { label: 'Theoretical tests', content: 'Common and specific theory A' },
+                { label: 'Practical tests', content: 'Track and circulation' },
+                { label: 'Vehicles that allows', content: 'Motorcycles up to 125cc' },
+                { label: 'Licenses that validate', content: 'AM' }
             ]
         },
         {
             id: 3,
-            title: 'Carnet de Moto',
-            subtitle: 'Permiso A2',
-            description: 'Autoriza para conducir motocicletas con una potencia máxima de 35 kW y una relación potencia/peso máxima de 0,2 kW/kg y no derivadas de un vehículo con más del doble de su potencia.',
+            title: 'Motorcycle License',
+            subtitle: 'License A2',
+            description: 'Authorizes to drive motorcycles with a maximum power of 35 kW and a maximum power/weight ratio of 0.2 kW/kg and not derived from a vehicle with more than double its power.',
             features: [
-                { label: 'Edad mínima', content: '18 años' },
-                { label: 'Permiso necesario', content: 'Ninguno' },
-                { label: 'Pruebas teóricas', content: 'Teórica común y específico A' },
-                { label: 'Pruebas prácticas', content: 'Pista y circulación' },
-                { label: 'Vehículos que permite', content: 'Motocicletas de hasta 35kW de potencia máxima' },
-                { label: 'Convalida', content: 'AM, A1 y LCM' }
+                { label: 'Minimum age', content: '18 years old' },
+                { label: 'License required', content: 'None' },
+                { label: 'Theoretical tests', content: 'Common and specific theory A' },
+                { label: 'Practical tests', content: 'Track and circulation' },
+                { label: 'Vehicles that allows', content: 'Motorcycles up to 35kW of maximum power' },
+                { label: 'Licenses that validate', content: 'AM, A1 and LCM' }
             ]
         },
         {
             id: 4,
-            title: 'Carnet de Moto',
-            subtitle: 'Permiso A',
-            description: 'Autoriza para conducir motocicletas y triciclos de motor. La edad mínima para obtenerlo será de veinte años cumplidos pero hasta los veintiún años cumplidos no autorizará a conducir triciclos de motor cuya potencia máxima exceda de 15 kW.',
+            title: 'Motorcycle License',
+            subtitle: 'License A',
+            description: 'Authorizes to drive motorcycles and motor tricycles. The minimum age to obtain it will be twenty years of age but until the age of twenty-one will not authorize the driving of motor tricycles whose maximum power exceeds 15 kW.',
             features: [
-                { label: 'Edad mínima', content: '20 años' },
-                { label: 'Permiso necesario', content: 'Obligatorio 2 años de antigüedad con el permiso A2' },
-                { label: 'Pruebas teóricas', content: 'Curso a determinar por el Ministerio de Interior' },
-                { label: 'Pruebas prácticas', content: 'Exento' },
-                { label: 'Vehículos que permite', content: 'Motocicletas de cualquier cilindrada' },
-                { label: 'Convalida', content: 'AM, A1, A2 y LCM' }
+                { label: 'Minimum age', content: '20 years old' },
+                { label: 'License required', content: 'Mandatory 2 years old with A2 license' },
+                { label: 'Theoretical tests', content: 'Course to be determined by the Ministry of the Interior' },
+                { label: 'Practical tests', content: 'None' },
+                { label: 'Vehicles that allows', content: 'Motorcycles of any displacement' },
+                { label: 'Licenses that validate', content: 'AM, A1, A2 and LCM' }
             ]
         },
         {
             id: 5,
-            title: 'Carnet de Camión',
-            subtitle: 'Permiso C1',
-            description: 'Autoriza para conducir camiones cuya masa máxima autorizada exceda de 3500kg y no sobrepase los 7500kg, diseñados y construidos para el transporte de no más de ocho pasajeros además del conductor. Dichos automóviles podrán llevar enganchado un remolque cuya masa máxima autorizada no exceda de 750kg.',
+            title: 'Truck License',
+            subtitle: 'License C1',
+            description: 'Authorizes to drive trucks whose maximum authorized mass exceeds 3500kg and does not exceed 7500kg, designed and built to transport no more than eight passengers in addition to the driver. These cars may have a trailer with a maximum authorized mass not exceeding 750kg attached.',
             features: [
-                { label: 'Edad mínima', content: '18 años' },
-                { label: 'Permiso necesario', content: 'Permiso B' },
-                { label: 'Pruebas teóricas', content: 'Teórica específica' },
-                { label: 'Pruebas prácticas', content: 'Pista y circulación' },
-                { label: 'Vehículos que permite', content: 'Automóviles cuya MMA vaya de 3500Kg a 7500Kg. Con remolque hasta de 750Kg de MMA' },
-                { label: 'Convalida', content: 'BTP' }
+                { label: 'Minimum age', content: '18 years old' },
+                { label: 'License required', content: 'License B' },
+                { label: 'Theoretical tests', content: 'Specific theory' },
+                { label: 'Practical tests', content: 'Track and circulation' },
+                { label: 'Vehicles that allows', content: 'Automobiles whose MMA ranges from 3500Kg to 7500Kg. With trailer up to 750Kg MMA' },
+                { label: 'Licenses that validate', content: 'BTP' }
             ]
-        },
+        }
     ]
+};
+
+
+export const Contact = {
+    dataCard: {
+        title: 'Contact data',
+        email: { label: 'Email', content: 'aelaslagunas@gmail.com' },
+        phone: { label: 'Phone Number', content: '+34 657 32 58 08' },
+    },
+    formTexts: {
+        name: { placeholder: 'Name & Surname' },
+        email: { placeholder: 'Email' },
+        subject: { placeholder: 'Subject' },
+        message: { placeholder: 'Message' },
+        submit: 'Send',
+    },
+    alert: 'Disabled... there is no reason to contact me here :)'
 }

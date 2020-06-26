@@ -1,4 +1,4 @@
-.GeneralButton{
+.Button{
     padding: 0;
 
     display: flex;
@@ -6,17 +6,28 @@
     align-items: center;
 
     outline: none;
-    border: solid 2px #ff751a;
+    cursor: pointer;
+    
     border-radius: 20px;
     background-color: #ff751a;
     color: white;
 
-    font-size: 2em;
-
     transition: background-color .3s, color .3s;
 }
 
-.GeneralButton:hover{
+.Button:hover{
     background-color: white;
     color: #ff751a;
+}
+
+.Button.General{
+    border: solid 2px #ff751a;
+    font-size: 2em;
+}
+
+.Button.Small{
+    width: 100px;
+    height: 33px;
+    border: solid 1.5px #ff751a;
+    font-size: 18px;
 }
