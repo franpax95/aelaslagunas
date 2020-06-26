@@ -1,0 +1,73 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .section.zero{
+    padding: 30px;
+    margin: 50px 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .section.zero .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Home .section.zero .right{
+    width: 50%;
+}
+.Home .section.zero .right img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.Home .section.one{ 
+    width: 100%;
+    padding: 50px 30px;
+    margin: 50px 0;
+
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-areas: 
+        'title title'
+        'left right';
+    justify-content: center;
+    align-items: center;
+
+    background-color: whitesmoke; 
+}
+.Home .section.one .title{ grid-area: title; }
+.Home .section.one .left{ grid-area: left; }
+.Home .section.one .right{ grid-area: right; }
+
+.Home .section.one .title{ text-align: center; }
+.Home .section.one .left, 
+.Home .section.one .right {
+    padding: 25px;
+}
+
+.Home .section.two{
+    padding: 50px;
+    margin: 50px 0;
+
+    display: flex;
+    flex-direction: column;
+
+    border: solid 2px #ff751a;
+    border-radius: 30px;
+}
+.Home .section.two .title{
+    text-align: center;
+}
+.Home .section.two .schedule-content{
+    margin-left: 20px;
+}
