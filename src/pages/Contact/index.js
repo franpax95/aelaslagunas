@@ -37,6 +37,15 @@ const Contact = () => {
     const onClick = (e) => {
         console.log(values);
         alert(contactTexts.alert);
+
+        // const templateId = 'aelaslagunas';
+        // sendMensaje(templateId, values);
+    }
+
+    const sendMensaje = (templateId, variables) => {
+        window.emailjs.send('gmail', templateId, variables)
+            .then(res=> { alert('Email successfully sent!') })
+            .catch(err => alert('Email failed.'));
     }
 
     return (
