@@ -25,3 +25,20 @@ export const Home = {
         }
     ]
 };
+
+export const About = {
+    sections: [
+        {
+            title: "Nuestro centro",
+            content: "Autoescuela, Centro de Formación Vial, Centro homologado CAP."
+        },
+        {
+            title: "Quiénes Somos",
+            content: "Somos una empresa dedicada a la formación, donde lo más importante son nuestros alumnos. Te ofrecemos calidad y un buen trato, así como nuestra exclusiva dedicación para que apruebes lo más fácil y rápido posible, al menor coste. \n \n Nos adaptamos a tus horarios y, si no necesitas te recogemos en tu domicilio o trabajo. Te llevamos a los exámenes teórico y práctico. En tu formación recibirás técnicas para afrontar los exámanes sin estrés, ni ansiedad; además de un curso especial de conducción racional y económica, totalmente gratuito. \n \n Podrás obtener tu permiso de conducir con coche manual o automático, tú eliges."
+        },
+        {
+            title: "¿Por qué apuntarte en Autoescuela Las Lagunas?",
+            content: "Impartimos cursos especiales para aquellas personas que tienen miedo a conducir (amaxofobia), y damos un trato especial para los que tienen alguna dificultad. \n \n Podrás hacer tu curso CAP en el horario que quieras, incluídos los fines de semana o en horario de cierre. \n \n Te damos facilidades de pago, podrás pagar cómo y cuándo quieras. Sacarte tu permiso de conducir o tu curso CAP te resultará fácil en AUTOESCUELA LAS LAGUNAS."
+        }
+    ]
+};

@@ -1,0 +1,52 @@
+.About{
+    width: 98vw;
+    margin: 10vh 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.About .section.one {
+    text-align: center;
+}
+
+.About .section h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.About .section p{
+    font-size: 1.2em;
+}
+
+/* (768px and down) */
+@media only screen and (max-width: 768px) {
+    .About{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .About .section{
+        margin: 6vh 0;
+        width: 100%;
+    }
+}
+
+/* (768px and up) */
+@media only screen and (min-width: 768px) {
+    .About .section.one{ grid-area: top; }
+    .About .section.two{ grid-area: left; }
+    .About .section.three{ grid-area: right; }
+
+    .About{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+            'top top'
+            'left right';
+    }   
+    
+    .About .section{
+        padding: 3vh 5vw;
+    }
+}

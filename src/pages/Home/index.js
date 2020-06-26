@@ -27,8 +27,6 @@ const Home = () => {
 
     return ( 
         <div className="Home">
-            <Header />
-
             <div className="section zero">
                 <div className="left">
                     <h1>{homeTexts.sections[0].title}</h1>
@@ -57,11 +55,11 @@ const Home = () => {
                 <p><b>{homeTexts.sections[2].address.label}:</b> {homeTexts.sections[2].address.content}</p>
                 <p><b>{homeTexts.sections[2].phone.label}:</b> {homeTexts.sections[2].phone.content}</p>
                 <p><b>{homeTexts.sections[2].email.label}:</b> {homeTexts.sections[2].email.content}</p>
-                <p>
+                <div>
                     <b>{homeTexts.sections[2].schedule.label}:</b>
                     <br/>
                     <p className="schedule-content">{nl2br(homeTexts.sections[2].schedule.content)}</p>
-                </p>
+                </div>
             </div>
         </div>
     );

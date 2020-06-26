@@ -25,3 +25,20 @@ export const Home = {
         }
     ]
 };
+
+export const About = {
+    sections: [
+        {
+            title: "Our center",
+            content: "Driving school, Road Training Center, CAP approved center."
+        },
+        {
+            title: "About us",
+            content: "We are a company dedicated to training, where the most important thing is our students. We offer you quality and good treatment, as well as our exclusive dedication so that you approve as easily and quickly as possible, at the lowest cost. \n \n We adapt to your schedules and, if you don't need, we will pick you up at your home or work. We take you to the theoretical and practical exams. In your training you will receive techniques to face exams without stress or anxiety; in addition to a special course on rational and economic driving, totally free. \n \n You can get your driving license with a manual or automatic car, you choose."
+        },
+        {
+            title: "Why join Autoescuela Las Lagunas?",
+            content: "We offer special courses for those who are afraid to drive (amaxophobia), and we give special treatment for those who have some difficulty. \n \n You will be able to take your CAP course at the time you want, including weekends or at closing time. \n \n We give you payment facilities, you can pay how and when you want. Taking out your driving license or your CAP course will be easy for you at AUTOESCUELA LAS LAGUNAS."
+        }
+    ]
+};
