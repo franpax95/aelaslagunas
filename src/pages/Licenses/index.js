@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
+import { withRouter } from 'react-router-dom';
 import { Context } from '../../Context';
 
 import LicenseCard from '../../components/LicenseCard';
@@ -62,4 +63,4 @@ const Licenses = (props) => {
     );
 }
 
-export default Licenses;
+export default withRouter(Licenses);
